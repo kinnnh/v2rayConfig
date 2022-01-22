@@ -259,7 +259,7 @@ get_version() {
             echo 'error: Failed to get release list, please check your network.'
             exit 1
         fi
-        RELEASE_LATEST="v4.22.1"
+        RELEASE_LATEST="v4.22.0"
         rm "$TMP_FILE"
         RELEASE_VERSION="$(version_number "$RELEASE_LATEST")"
         # Compare V2Ray version numbers
